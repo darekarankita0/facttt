@@ -22,7 +22,7 @@ def facts():
         dff=df.values.tolist()
         value=random.choices(dff)
         #print(value)
-        time.sleep(30)
+        time.sleep(10)
         return render_template('facts.html',value=value)
         #return " {} ".format(value)
        # return " {} ".format(value)
